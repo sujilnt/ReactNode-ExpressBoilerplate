@@ -38,13 +38,15 @@ All the webp information got insipired from [web.dev](https://web.dev/serve-imag
 
 #####  For Development 
 ```  
- Client Side Run - yarn run dev:client
- Server Side Run - yarn run server-dev 
+ Client Side Run - yarn run client-dev:watch
+ Server Side Run - yarn run server-dev:build 
 ```
 #####  For Production  
 ```  
- Client Side Run - yarn run prod:build
- Server Side Run - yarn run server-prod
+ Client Side Run - yarn run client-prod:build
+ Server Side Run - yarn run server-prod:build
+  or 
+ both build - yarn run build
 ```
 <hr/>
 
